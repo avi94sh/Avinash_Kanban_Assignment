@@ -18,24 +18,22 @@ This is a **Kanban Board web app** built with **React, TypeScript, Zustand, Tail
 - **Optimistic Updates:** Tasks update instantly, rollback on failure (mock API).
 
 ---
-
-## Folder Structure
-
+##Folder structure
 Avinash_Assignment/
 ├─ node_modules/
 ├─ public/
 ├─ src/
-│ ├─ api/
-│ │ └─ mockApi.ts
-│ ├─ assets/
-│ ├─ pages/
-│ │ ├─ Board.tsx
-│ │ └─ Login.tsx
-│ ├─ store/
-│ │ └─ taskStore.ts
-│ ├─ App.tsx
-│ ├─ index.css
-│ └─ main.tsx
+│  ├─ api/
+│  │  └─ mockApi.ts
+│  ├─ assets/
+│  ├─ pages/
+│  │  ├─ Board.tsx
+│  │  └─ Login.tsx
+│  ├─ store/
+│  │  └─ taskStore.ts
+│  ├─ App.tsx
+│  ├─ index.css
+│  └─ main.tsx
 ├─ package.json
 ├─ tailwind.config.js
 ├─ tsconfig.json
