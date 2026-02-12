@@ -17,7 +17,7 @@ Manage tasks with drag-and-drop, simple login, and responsive design.
 
 ---
 
-# Folder Structure
+## Folder Structure
 
 Avinash_Assignment/
 ├─ node_modules/
@@ -41,3 +41,35 @@ Avinash_Assignment/
 
 
 ---
+
+## Installation & Usage (One Command)
+
+```bash
+# Clone repo, install dependencies, and start server
+git clone https://github.com/<your-username>/Avinash_Kanban_Assignment.git && \
+cd Avinash_Kanban_Assignment && \
+npm install && \
+npm run dev
+Open http://localhost:5173 in your browser.
+Login with any username and start managing tasks.
+
+Scripts
+npm run dev – Start development server
+
+npm run build – Build for production
+
+npm run preview – Preview production build
+
+Dependencies
+React – UI Library
+
+TypeScript – Type safety
+
+Tailwind CSS – Styling
+
+Zustand – State management
+
+@dnd-kit/core – Drag & Drop functionality
+
+Notes
+Project runs locally using npm run dev
